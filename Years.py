@@ -21,14 +21,22 @@ def years():
                            )
 
 
+<<<<<<< HEAD
 @app.route('/h', methods=['GET', 'POST'])
+=======
+@app.route('/', methods=['GET', 'POST'])
+>>>>>>> 68246c7aa7ea52b19621821c291b6803d3e23886
 def months():
 
     clicked = None
     if request.method == "POST":
         clicked = request.json['data']
 
+<<<<<<< HEAD
         return render_template('test.html', value=clicked)
+=======
+        return render_template('chart.html', value=clicked)
+>>>>>>> 68246c7aa7ea52b19621821c291b6803d3e23886
 
 if __name__ == '__main__':
     app.run(debug=True)
