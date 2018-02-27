@@ -33,28 +33,27 @@
     </div>
 
 
-
     <!--email count -->
     <div id="email_count" class="email-count-container">
-        <div id = "email_count_year"><canvas id="email-count-year" width="12" height="6"></canvas></div>
-        <div id ="email_count_month" style = "display: none;"><canvas id="email-count-month" width="12" height="6"></canvas></div>
 
-            <script src="static/js/email-count-year.js" type="text/javascript"></script>
-            <script src="static/js/email-count-month.js" type="text/javascript"></script>
+            <canvas id="email-count-year" width="12" height="4"></canvas>
+            <script src="static/js/email-count.js" type="text/javascript"></script>
+            <button id="refresh">Restart</button>
+
     </div>
 
 
 
     <!--top senders-->
-    <div id="top_senders" class="top-senders-container">
+    <!--<div id="top_senders" class="top-senders-container">
                     <canvas id="top-senders" width="8" height="4"></canvas>
                     <script src="static/js/top-senders.js" type="text/javascript"></script>
-    </div>
+    </div>-->
 
 
 
-    <!--Email Search-->
-    <div id="email_search" class="email-search-container">
+   <!--Email Search-->
+     <div id="email_search" class="email-search-container">
 
         <div id="message_id_div">
         <form id='message_id' method='post' enctype='multipart/form-data'>
@@ -77,9 +76,13 @@
     <div id="sentiment_compare" class="sentiment-comparison-container">
         <canvas id="sentiment-comparison" width="17" height="4"></canvas>
         <script src="static/js/sentiment-comparison.js" type="text/javascript"></script>
+        To:<select id="user_sender"><option>Sender</option></select><button>Select</button>
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        From:<select id="user_reciever"><option>Recipient</option></select><button>Select</button>
     </div>
-
-
 
 
 

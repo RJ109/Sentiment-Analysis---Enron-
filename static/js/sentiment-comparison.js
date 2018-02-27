@@ -21,7 +21,6 @@
                 output.sentimean.forEach(function(item){
                                                       sentimean.push(item.sentimentscore)
                                                    })
-
                 var sentimed = new Array()
                 output.sentimed.forEach(function(item){
                                                       sentimed.push(item.sentimentscore)
@@ -101,6 +100,11 @@
 
                                     yAxes: [{
 
+                                         ticks: {
+
+                                                fontSize: 11,
+                                                },
+
                                          scaleLabel: {
 
                                                 display: true,
@@ -127,11 +131,11 @@
 
                                 bodySpacing: 6,
 
-                                      },
 
 
+				                    }
+				         }
 
-				            }
                 });
 
              }

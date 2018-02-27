@@ -1,20 +1,24 @@
-div#mySidebar{
+ div#mySidebar{
+
     display:none
 }
 
-div#email_count{
+ div#email_count{
+
      position: fixed;
      border-radius: 25px;
      left:20px;
      top:440px;
-     height:47vh;
-     width:30vw;
+     height:40vh;
+     width:48vw;
      background:#EDEDED;
      padding-bottom: 0.5cm;
      padding-right:0.5cm;
      padding-top: 1cm;
 }
+
  div#top_senders{
+
      position: fixed;
      border-radius: 25px;
      left: 416.5px;
@@ -26,13 +30,15 @@ div#email_count{
      padding-right: 0.5cm;
      padding-top: 0.8cm;
 }
+
  div#email_search{
+
      position: fixed;
      border-radius: 25px;
-     left:864px;
+     left:660px;
      top:440px;
-     height:47vh;
-     width:30vw;
+     height:40vh;
+     width:47vw;
      background:#EDEDED;
      padding-bottom: 2.5cm;
      font-family: Lucida Sans Unicode;
@@ -41,7 +47,9 @@ div#email_count{
      padding-bottom: 0.5cm;
      padding-left:0.5cm;
 }
+
  div#sentiment_compare{
+
      position: fixed;
      left:20px;
      border-radius: 25px;
@@ -54,14 +62,14 @@ div#email_count{
 }
 
  div#message_body{
+
      font-family: Lucida Sans Unicode;
      font-size: 15;
  }
 
  div#search_div{
+
     display: none;
  }
 
- div#email_count_month{
-    display: none;
- }
+
